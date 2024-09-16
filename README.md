@@ -32,7 +32,7 @@ To integrate Bottom Sheet into your Xcode project using Swift Package Manager, a
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/joomcode/BottomSheet", from: "2.0.0")
+    .package(url: "https://github.com/ejaro/BottomSheet", from: "2.0.0")
 ]
 ```
 
@@ -51,7 +51,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'BottomSheet', :git => 'https://github.com/joomcode/BottomSheet'
+    pod 'BottomSheet', :git => 'https://github.com/ejaro/BottomSheet'
 end
 ```
 
