@@ -44,7 +44,7 @@ public final class BottomSheetNavigationController: UINavigationController {
         delegate = self
 
         view.clipsToBounds = true
-        view.backgroundColor = .white.withAlphaComponent(0.6)
+        view.backgroundColor = .white.withAlphaComponent(0.0)
 
         modalPresentationStyle = .custom
     }
